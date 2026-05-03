@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishnuvardhan Reddy | Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Vishnu<span>Dev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Java • Spring Boot • Angular • Cloud</p>
+        <h1>Full-Stack<br><span>Developer</span></h1>
+        <p class="hero-summary">Software Engineer with 7+ years of experience building scalable enterprise applications, modernizing legacy systems, and delivering cloud-native solutions.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">Let's Connect</a>
+          <a href="Vishnu_Resume.pdf" download class="btn secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>7+</strong><span>Years</span></div>
+          <div><strong>85%</strong><span>Build Time Cut</span></div>
+          <div><strong>AWS</strong><span>Certified</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-tilt>
+        <div class="photo-ring">
+          <img src="VishnuProfile.jpg" alt="Vishnuvardhan Reddy profile photo" class="profile-photo"
+               onerror="this.onerror=null;this.src='VishnuProfile.jpeg';" />
+          <div class="photo-fallback">VR</div>
+        </div>
+        <div class="floating-badge badge-one"><i class="fa-brands fa-java"></i> Java</div>
+        <div class="floating-badge badge-two"><i class="fa-brands fa-aws"></i> AWS</div>
+        <div class="floating-badge badge-three"><i class="fa-brands fa-angular"></i> Angular</div>
+      </div>
+    </section>
+
+    <section id="about" class="section glass-card reveal" data-tilt>
+      <h2>About</h2>
+      <p>I am Vishnuvardhan Reddy Salimidi, a full-stack software engineer experienced in Java, Spring Boot, Microservices, Angular, React, REST APIs, SQL, AWS, GCP, CI/CD automation, and enterprise application modernization. I enjoy solving performance problems, building clean backend services, and creating reliable user-facing applications.</p>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="reveal">Experience</h2>
+      <div class="timeline">
+        <article class="timeline-item reveal" data-tilt><h3>Senior Software Engineer</h3><p class="meta">Virtusa · Texas, USA · Dec 2023 – Present</p><p><strong>Client:</strong> Amazon Web Services</p><ul><li>Modernizing Natural mainframe applications into Java Spring Boot 3 and Angular 18 using AWS BluAge Velocity.</li><li>Developed RESTful microservices with optimized SQL data access layers.</li><li>Built Angular components, services, routing modules, and reusable UI components.</li><li>Improved performance through query optimization, indexing, profiling, and reduced Angular build time by 85%.</li></ul></article>
+        <article class="timeline-item reveal" data-tilt><h3>Software Developer</h3><p class="meta">Sans Solutions Enterprise Inc · Houston, Texas · Sep 2023 – Nov 2023</p><p><strong>Project:</strong> Perfonova Project Management Platform</p><ul><li>Developed full-stack features using Angular and Spring Boot 3 microservices.</li><li>Implemented PostgreSQL integrations, backend business logic, and modular UI components.</li><li>Maintained GitLab CI/CD pipelines and improved reliability with Kubernetes and Memcached.</li></ul></article>
+        <article class="timeline-item reveal" data-tilt><h3>Software Engineer</h3><p class="meta">OpenText · Hyderabad, India · Mar 2023 – Aug 2023</p><ul><li>Developed React modules and Spring Boot microservices for Core Case Management.</li><li>Used OWASP HTML Sanitizer to prevent XSS attacks.</li><li>Migrated applications from Cloud Foundry to GCP using Spring Batch and shell scripts.</li></ul></article>
+        <article class="timeline-item reveal" data-tilt><h3>Application Developer</h3><p class="meta">IBM · Hyderabad, India · Aug 2021 – Mar 2023</p><p><strong>Client:</strong> First Abu Dhabi Bank</p><ul><li>Developed backend services for Internet and Mobile Banking platforms.</li><li>Used AWS EKS, SQS, SNS, Secrets Manager, GitHub Actions, ELK, and Kibana.</li><li>Improved performance using Kafka and Memcached.</li></ul></article>
+        <article class="timeline-item reveal" data-tilt><h3>Project Engineer</h3><p class="meta">Wipro Technologies · Bengaluru, India · May 2018 – May 2021</p><p><strong>Client:</strong> Hewlett Packard Enterprise</p><ul><li>Developed backend modules for HPE configuration and quotation systems.</li><li>Automated SOX reports, notifications, WebLogic restarts, and monitoring.</li><li>Migrated applications from SVN to GitHub and configured Jenkins pipelines.</li></ul></article>
+      </div>
+    </section>
+
+    <section id="education" class="section glass-card reveal" data-tilt><h2>Education</h2><div class="info-card"><h3>Bachelor of Technology in Computer Science & Engineering</h3><p>KL University, Guntur, India · 2018 · GPA: 8.41/10</p></div></section>
+
+    <section id="skills" class="section"><h2 class="reveal">Skills</h2><div class="skills-grid reveal"><span>Java 11/17</span><span>Spring Boot</span><span>Microservices</span><span>Angular 18</span><span>React</span><span>REST APIs</span><span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Oracle</span><span>PostgreSQL</span><span>MongoDB</span><span>Kafka</span><span>GitHub Actions</span><span>Jenkins</span><span>JUnit</span><span>Mockito</span><span>Selenium</span><span>SonarQube</span></div></section>
+
+    <section id="projects" class="section"><h2 class="reveal">Project</h2><div class="project-grid"><div class="project-card reveal" data-tilt><h3>Enterprise Application Modernization</h3><p>Modernized large-scale Natural mainframe applications into cloud-ready Java Spring Boot and Angular applications using AWS BluAge Velocity.</p><p class="tech">Java 17 · Spring Boot 3 · Angular 18 · AWS · SQL · Docker · Tomcat</p></div><div class="project-card reveal" data-tilt><h3>Perfonova Project Management Platform</h3><p>Built full-stack project management features using Angular, Spring Boot microservices, PostgreSQL, Kubernetes, and CI/CD pipelines.</p><p class="tech">Angular · Spring Boot · PostgreSQL · AWS · Kubernetes · GitLab CI/CD</p></div></div></section>
+
+    <section id="awards" class="section"><h2 class="reveal">Awards & Certifications</h2><div class="cards"><div class="small-card reveal" data-tilt><h3>AWS Blu Age Refactor</h3><p>L3 Certified · Jan 2024</p></div><div class="small-card reveal" data-tilt><h3>AWS Developer Associate</h3><p>DVA-C01 · Jun 2022</p></div><div class="small-card reveal" data-tilt><h3>AWS Cloud Practitioner</h3><p>CLF-C01 · Nov 2021</p></div><div class="small-card reveal" data-tilt><h3>IEEE Publication</h3><p>Outlier Detection in Data Streams using MCOD Algorithm · iCATccT 2017</p></div></div></section>
+
+    <section id="contact" class="section contact-section glass-card reveal" data-tilt><h2>Contact</h2><p>Open to full-stack software engineering opportunities in Java, Spring Boot, Angular, React, and cloud-native development.</p><div class="contact-icons"><a href="https://www.linkedin.com/in/vishnuvardhan-salimidi" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/VishnuSalimidi" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="mailto:reddy.vishnu.rv@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></div></section>
+  </main>
+  <footer><p>© 2026 Vishnuvardhan Reddy Salimidi. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
